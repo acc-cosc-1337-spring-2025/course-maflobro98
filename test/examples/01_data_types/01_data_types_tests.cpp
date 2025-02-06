@@ -12,6 +12,11 @@ TEST_CASE("Test echo variable")
 	REQUIRE(echo_variable(5) == 5);
 }
 
+TEST_CASE("Test subtract numbers")
+{
+	REQUIRE(subtract_numbers(10,5) == 5);
+}
+
 /*test case add_to_double_1 with 0 as parameter*/
 
 /*test case add_to_double_1 with 1 as parameter*/
